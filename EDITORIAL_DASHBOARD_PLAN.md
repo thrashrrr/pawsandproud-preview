@@ -38,3 +38,12 @@ Title, excerpt, body, heading hierarchy, featured image, image license/source, c
 - NIST AI Risk Management Framework for human oversight and documentation: https://www.nist.gov/itl/ai-risk-management-framework
 
 These sources support accessibility, clarity, editorial oversight and responsible content quality; they do not prove that any particular dashboard arrangement maximizes retention. Validate with actual use.
+
+## Saved for Later (approved requirement, 2026-11-05)
+- Owner can move any generated article to a dedicated **Saved for Later** section without publishing it.
+- Keep full article body, title, image, source references, verification report, category, and revision history.
+- Saved items are distinct from drafts awaiting work, published posts, and trash.
+- Owner can reopen, edit, return to the approval queue, or explicitly publish after passing required checks.
+- Recheck time-sensitive claims, working citations, and image rights before publishing a saved item, especially after substantial delay or editing.
+- Saving never implies approval, scheduling, or publication. Only explicit owner approval of the current verified version permits publication.
+- Acceptance test: given three generated posts, save one, approve the other two, confirm the saved item remains private and recoverable; later reopen and approve it separately.

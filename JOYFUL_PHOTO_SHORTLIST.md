@@ -13,3 +13,7 @@ All below explicitly state **Free to use under the Unsplash License** on their o
 | Alternative cats card | Playful kitten with toy | Koharu Tsurumi | https://unsplash.com/photos/a-cute-kitten-plays-with-a-toy-Vf4ptX0Y_Eg | Source license confirmed; file/third-party review pending |
 
 Important: Unsplash warns its copyright license does not independently grant model, property, trademark or artwork rights: https://unsplash.com/terms . No changes to live preview until selected originals are archived and checked.
+
+
+## Preview update (2026-11-05)
+Preview HTML updated to use Unsplash image URLs with photo IDs `1760530327971-f8523426c60a` (hero), `1716675209010-959f130eda04` (dogs), and `1757064170496-0b7ac1650644` (cats). These are remote images, **not archived local copies**. Their precise photo-page attribution and file-specific third-party rights have **not** been verified against these IDs; do not treat them as production-cleared. The earlier shortlisted source links above are candidates, not proven mappings to the newly deployed URLs. Replace remote images with locally stored, attributed, checked originals before launch.

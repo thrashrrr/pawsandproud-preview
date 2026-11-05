@@ -47,3 +47,11 @@ These sources support accessibility, clarity, editorial oversight and responsibl
 - Recheck time-sensitive claims, working citations, and image rights before publishing a saved item, especially after substantial delay or editing.
 - Saving never implies approval, scheduling, or publication. Only explicit owner approval of the current verified version permits publication.
 - Acceptance test: given three generated posts, save one, approve the other two, confirm the saved item remains private and recoverable; later reopen and approve it separately.
+
+## Publication timestamps for saved articles (approved 2026-11-05)
+- Keep `created_at` (original draft creation), `saved_at` (when moved to Saved for Later), `published_at` (actual first successful public publication), and `updated_at` (latest substantive edit) as separate fields.
+- An article saved for weeks or months must display the **actual publication date** and, where shown, time when it is first successfully published, never its original draft or save date.
+- Capture the publication timestamp server-side only after successful publishing; store in UTC and format for readers in the site's chosen display timezone, with consistent handling of time zones.
+- If scheduled, show `scheduled_for` separately; the public published timestamp reflects actual release, not when it was scheduled.
+- Republishing an already published article after editing should not silently reset the original publication date. Show an updated date separately when appropriate.
+- Acceptance test: create a draft on November 5, save it, publish December 5; public article displays December 5 as the publication date, while dashboard history retains November 5 as the draft creation date.
